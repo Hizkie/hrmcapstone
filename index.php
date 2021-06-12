@@ -2,7 +2,7 @@
   
 $servername = "us-cdbr-east-04.cleardb.com";
 $username = "b91b0e97d3fc91";
-$password = "7272ee3c6";
+$password = "272ee3c6";
 $dbname = "heroku_1cbb536cadb09c1";
 
 // Create connection
