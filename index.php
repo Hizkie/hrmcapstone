@@ -12,7 +12,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "SELECT sno, department_name, designations, actions FROM department";
+$sql = "SELECT sno, DepartmentName, Designations FROM department";
 $result = $conn->query($sql);
 
 ?>
@@ -679,9 +679,9 @@ input[type=submit],#commentform input[type=submit], .comment .comment-reply-link
                                      <td><?php
                                       echo $row["sno"] ?> </td>
                                     <td><?php
-                                      echo $row["department_name"] ?> </td>
+                                      echo $row["DepartmentName"] ?> </td>
                                     <td><?php
-                                      echo $row["designations"] ?> </td>
+                                      echo $row["Designations"] ?> </td>
                                     
                                     <?php
                                      }
