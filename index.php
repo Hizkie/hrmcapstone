@@ -17,28 +17,27 @@ $result = $conn->query($sql);
 
 ?>
 <html>
-	jj
     <head>
                 <title> &lsaquo; WPHRM</title>
         <link rel='dns-prefetch' href='//s.w.org' />
 <link rel="alternate" type="application/rss+xml" title="WPHRM &raquo; Feed" href="https://wphrm.com/demo/feed/" />
 <link rel="alternate" type="application/rss+xml" title="WPHRM &raquo; Comments Feed" href="https://wphrm.com/demo/comments/feed/" />
-		
-		<style type="text/css">
+    
+    <style type="text/css">
 img.wp-smiley,
 img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
+  display: inline !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: 1em !important;
+  width: 1em !important;
+  margin: 0 .07em !important;
+  vertical-align: -0.1em !important;
+  background: none !important;
+  padding: 0 !important;
 }
 </style>
-	<link rel='stylesheet' id='wphrm-font-awesome-css-css'  href='https://wphrm.com/demo/wp-content/plugins/wphrm/assets/css/font-awesome.min.css' type='text/css' media='all' />
+  <link rel='stylesheet' id='wphrm-font-awesome-css-css'  href='https://wphrm.com/demo/wp-content/plugins/wphrm/assets/css/font-awesome.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='wphrm-bootstrap-switch-css-css'  href='https://wphrm.com/demo/wp-content/plugins/wphrm/assets/css/bootstrap-switch.css' type='text/css' media='all' />
 <link rel='stylesheet' id='wphrm-bootstrap-min-css-css'  href='https://wphrm.com/demo/wp-content/plugins/wphrm/assets/css/bootstrap.min.css' type='text/css' media='all' />
 <link rel='stylesheet' id='wphrm-datepicker3-css-css'  href='https://wphrm.com/demo/wp-content/plugins/wphrm/assets/css/datepicker3.css' type='text/css' media='all' />
@@ -47,7 +46,9 @@ img.emoji {
 <link rel='stylesheet' id='wphrm-front-dashboard-custom-grid-css-css'  href='https://wphrm.com/demo/wp-content/plugins/wphrm-frontend/assets/css/wphrm-front-dashboard-custom-grid.css' type='text/css' media='all' />
 <link rel='stylesheet' id='wphrm-front-dashboard-css-css'  href='https://wphrm.com/demo/wp-content/plugins/wphrm-frontend/assets/css/wphrm-front-dashboard.css' type='text/css' media='all' />
 <script type='text/javascript' src='https://wphrm.com/demo/wp-includes/js/jquery/jquery.js' id='jquery-core-js'></script>
-
+/* <![CDATA[ */
+var WPHRMCustomJS = {"ajaxurl":"https:\/\/wphrm.com\/demo\/wp-admin\/admin-ajax.php"};
+/* ]]> */
 </script>
 <script type='text/javascript' src='https://wphrm.com/demo/wp-content/plugins/wphrm/assets/js/bootstrap-datepicker.js' id='wphrm-bootstrap-datepicker-js-js'></script>
 <script type='text/javascript' src='https://wphrm.com/demo/wp-content/plugins/wphrm/assets/js/jquery.validate.min.js' id='wphrm-jquery-validate-js-js'></script>
@@ -69,21 +70,27 @@ var WPHRMCustomJS = {"customlebal":"Custom Label","customvalue":"Custom Value","
 <script type='text/javascript' src='https://wphrm.com/demo/wp-content/plugins/wphrm/assets/js/wphrm.js' id='wphrm-custom-js-js'></script>
 
 <script type='text/javascript' src='https://wphrm.com/demo/wp-content/plugins/wphrm/assets/js/attendance_calendar.js' id='wphrm-attendance-calenader-js-js'></script>
+<script type='text/javascript' id='wphrm-dashboard-calenader-js-js-extra'>
+/* <![CDATA[ */
+var WPHRMJS = {"ajaxurl":"https:\/\/wphrm.com\/demo\/wp-admin\/admin-ajax.php"};
+var WPHRMJS = {"ajaxurl":"https:\/\/wphrm.com\/demo\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
 
 
 <link rel="https://api.w.org/" href="https://wphrm.com/demo/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wphrm.com/demo/xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://wphrm.com/demo/wp-includes/wlwmanifest.xml" /> 
 <meta name="generator" content="WordPress 5.5.5" />
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css" media="print">#wpadminbar { display:none; }</style>
-	<style type="text/css" media="screen">
-	html { margin-top: 32px !important; }
-	* html body { margin-top: 32px !important; }
-	@media screen and ( max-width: 782px ) {
-		html { margin-top: 46px !important; }
-		* html body { margin-top: 46px !important; }
-	}
+  <style type="text/css" media="screen">
+  html { margin-top: 32px !important; }
+  * html body { margin-top: 32px !important; }
+  @media screen and ( max-width: 782px ) {
+    html { margin-top: 46px !important; }
+    * html body { margin-top: 46px !important; }
+  }
 </style>
-	<link rel="icon" href="https://wphrm.com/demo/wp-content/uploads/favicon.png" sizes="32x32" />
+  <link rel="icon" href="https://wphrm.com/demo/wp-content/uploads/favicon.png" sizes="32x32" />
 <link rel="icon" href="https://wphrm.com/demo/wp-content/uploads/favicon.png" sizes="192x192" />
 <link rel="apple-touch-icon" href="https://wphrm.com/demo/wp-content/uploads/favicon.png" />
 <meta name="msapplication-TileImage" content="https://wphrm.com/demo/wp-content/uploads/favicon.png" />
@@ -488,9 +495,6 @@ input[type=submit],#commentform input[type=submit], .comment .comment-reply-link
 <span class="preloader-custom-gif"></span>
 </div>
 <div id="add_static" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
-
-
-
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -505,23 +509,22 @@ input[type=submit],#commentform input[type=submit], .comment .comment-reply-link
                         <button class="close" data-close="alert"></button>
                     </div>
                     <!-- BEGIN FORM-->
-                    <form method="POST"  action="insert_department.php" accept-charset="UTF-8" class="form-horizontal department_frm" id="edit_form">
+                    <form method="POST"  accept-charset="UTF-8" class="form-horizontal department_frm" id="edit_form">
                         <div class="form-body">
                             <div class="form-group">
                                 <div class="col-md-9 col-xs-12">
-                                    <input class="form-control form-control-inline " name="departmentName" id="department_name" type="text" value="" placeholder="Department Name" />
+                                    <input class="form-control form-control-inline " name="departmentName[]" id="department_name" type="text" value="" placeholder="Department Name" />
                                 </div>
-								<div class="col-md-2 col-xs-12">
-									  <button type="button" id="plusButtonDepartment" class="btn btn-sm green form-control-inline margin-bottom-zero wphrm-department-popup-add-more">
-										<i class="fa fa-plus"></i>Add More</button>
+                <div class="col-md-2 col-xs-12">
+                    <button type="button" id="plusButtonDepartment" class="btn btn-sm green form-control-inline margin-bottom-zero wphrm-department-popup-add-more">
+                    <i class="fa fa-plus"></i>Add More                    </button>
                                   </div>
                             </div>
                         </div>
                         <div id="insertBeforeDepartment"></div>
                             
                         <div class="form-group margin-bottom-zero">
-                                <div class="col-md-10"> 
-                                <input type="submit" value="submit">         
+                                <div class="col-md-10">          
                                 <button type="submit"  class="btn blue margin-right-fifteen"><i class="fa fa-plus"></i>Add Department</button>
                                 <button type="button" data-dismiss="modal" aria-hidden="true" class="btn default"><i class="fa fa-times"></i>Cancel</button>
                              </div>
@@ -571,8 +574,6 @@ input[type=submit],#commentform input[type=submit], .comment .comment-reply-link
         </div>
     </div>
 </div>
-
-
 <div id="deleteModal" class="modal fade" tabindex="-1" data-backdrop="static" data-keyboard="false">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -593,30 +594,6 @@ input[type=submit],#commentform input[type=submit], .comment .comment-reply-link
         </div>
     </div>
 </div>
-
- <form method="POST"  action="insert_department.php" accept-charset="UTF-8" class="form-horizontal department_frm" id="edit_form">
-                        <div class="form-body">
-                            <div class="form-group">
-                                <div class="col-md-9 col-xs-12">
-                                    <input class="form-control form-control-inline " name="departmentName" id="department_name" type="text" value="" placeholder="Department Name" />
-                                </div>
-                <div class="col-md-2 col-xs-12">
-                    <button type="button" id="plusButtonDepartment" class="btn btn-sm green form-control-inline margin-bottom-zero wphrm-department-popup-add-more">
-                    <i class="fa fa-plus"></i>Add More</button>
-                                  </div>
-                            </div>
-                        </div>
-                        <div id="insertBeforeDepartment"></div>
-                            
-                        <div class="form-group margin-bottom-zero">
-                                <div class="col-md-10"> 
-                                <input type="submit" value="submit">         
-                                <button type="submit"  class="btn blue margin-right-fifteen"><i class="fa fa-plus"></i>Add Department</button>
-                                <button type="button" data-dismiss="modal" aria-hidden="true" class="btn default"><i class="fa fa-times"></i>Cancel</button>
-                             </div>
-                        </div>
-                    </form>
-                    <!-- END FORM-->
 <!-- END PAGE HEADER-->
 <!-- BEGIN PAGE CONTENT-->
 <div class="contentWrapper">
@@ -660,7 +637,7 @@ input[type=submit],#commentform input[type=submit], .comment .comment-reply-link
                         <i class="fa fa-list"></i>List of Departments                    </div>
                 </div>
                 <div class="portlet-body">
-					<div class="table-responsive">
+          <div class="table-responsive">
                     <table class="wphrmtable table table-striped table-bordered table-hover" id="wphrmDataTable">
                       <thead>
                             <tr>
@@ -672,7 +649,7 @@ input[type=submit],#commentform input[type=submit], .comment .comment-reply-link
                         </thead>
                         <tbody>
                            <tr>
-                             <?php if ($result->num_rows > 0) {
+                            <?php if ($result->num_rows > 0) {
                               // output data of each row
                                 while($row = $result->fetch_assoc()) {
                                       ?>
@@ -692,8 +669,6 @@ input[type=submit],#commentform input[type=submit], .comment .comment-reply-link
                                                 $conn->close();
 
                                     ?>
-
-                                        
                                         <td>
                                             <a class="purple color" href="https://wphrm.com/demo/designation?departmentID=159&department_name=EntrepriseB">
                                                 <i class="fa fa-list"></i>
@@ -708,7 +683,7 @@ input[type=submit],#commentform input[type=submit], .comment .comment-reply-link
                                     </tr>
                         </tbody>
                     </table>
-					</div>
+          </div>
                 </div>
             </div>
         </div>
